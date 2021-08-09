@@ -1,0 +1,74 @@
+$light-color: #f8f8f8;
+$main-color: #333c41;
+$main-hover: #7ccbd4;
+$attention-color: #9ba5a8;
+$attention-hover: ##002663;
+$font-color: #4b4b4b;
+@mixin boxShadow {
+  -webkit-box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+}
+
+.pool {
+  background-color: $light-color;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  @include boxShadow;
+  .title {
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+    color: ##002663;
+    .title-icon {
+      font-size: 40px;
+    }
+  }
+  hr {
+    margin: 0;
+    color: #e9e3e3;
+  }
+  .card {
+    height: 75%;
+    overflow: hidden;
+    overflow-y: auto;
+    ul {
+      margin-top: 10px;
+      padding: 0;
+      li {
+        list-style: none;
+        padding: 15px;
+        border: 1.5px solid $main-color;
+        border-radius: 5px;
+        margin-bottom: 4px;
+        margin-right: 5px;
+
+        .inputGroup {
+          display: flex;
+          align-items: center;
+          .inputField {
+            order: 1;
+            cursor: pointer;
+          }
+          .inputLabel {
+            margin-left: 5px;
+            font-weight: bold;
+            color: $font-color;
+            order: 2;
+            display: flex;
+            .item-icon {
+              margin: 0px 10px;
+              height: 25px;
+              width: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

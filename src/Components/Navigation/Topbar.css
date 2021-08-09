@@ -1,0 +1,43 @@
+.bar {
+  width: 100%;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+}
+
+.bar img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #4b4b4b;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.bar .title {
+  font-weight: bold;
+  color: #4b4b4b;
+}
+
+.bar .title span {
+  color: ##002663;
+}
+
+.bar .title-c {
+  list-style-type: none;
+  text-decoration: none;
+  color: #4b4b4b;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Topbar.css.map */

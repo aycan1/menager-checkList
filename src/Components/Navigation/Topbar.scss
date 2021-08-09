@@ -1,0 +1,45 @@
+$light-color: #f8f8f8;
+$main-color: #333c41;
+$main-hover: #7ccbd4;
+$attention-color: #9ba5a8;
+$attention-hover: ##002663;
+$font-color: #4b4b4b;
+
+@mixin boxShadow {
+  -webkit-box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+}
+
+.bar {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $light-color;
+  border-radius: 5px;
+  @include boxShadow;
+
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid $font-color;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  .title {
+    font-weight: bold;
+    color: $font-color;
+    span {
+      color: ##002663;
+    }
+  }
+  .title-c {
+    list-style-type: none;
+    text-decoration: none;
+    color: $font-color;
+    cursor: pointer;
+  }
+}

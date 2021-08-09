@@ -1,0 +1,171 @@
+.cat-card {
+  background-color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+}
+
+.cat-card .top {
+  height: 15%;
+  margin-bottom: 0;
+}
+
+.cat-card .top .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #485785;
+}
+
+.cat-card .top .title .title-icon {
+  font-size: 40px;
+}
+
+.cat-card .top .title .title-text {
+  color: #4b4b4b;
+  font-weight: bold;
+  border-bottom: 2px solid #002663;
+  padding-bottom: 5px;
+}
+
+.cat-card .mid-sec {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.cat-card .mid-sec .plus-icon {
+  height: 50px;
+  width: 50px;
+  color: #4b4b4b;
+}
+
+.cat-card .mid-sec .card {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.cat-card .mid-sec .card ul {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.cat-card .mid-sec .card ul li {
+  list-style: none;
+  padding: 15px;
+  border: 1.5px solid #333c41;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+.cat-card .mid-sec .card ul li .inputGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cat-card .mid-sec .card ul li .inputGroup .inputField {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  cursor: pointer;
+}
+
+.cat-card .mid-sec .card ul li .inputGroup .inputLabel {
+  margin-left: 5px;
+  font-weight: bold;
+  color: #4b4b4b;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.cat-card .bottom {
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cat-card .bottom .prd-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cat-card .bottom .prd-btns .add-prd {
+  width: 150px;
+  height: 30px;
+  border: 2px solid rgba(112, 111, 211, 0);
+  background-color: #333c41;
+  border-radius: 5px;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.cat-card .bottom .prd-btns .add-prd:hover {
+  background-color:rgb(22, 230, 15);
+}
+
+.cat-card .bottom .prd-btns .add-prd:disabled {
+  opacity: 0.3;
+}
+
+.cat-card .bottom .prd-btns .remove-prd {
+  width: 150px;
+  height: 30px;
+  border: none;
+  margin-left: 5px;
+  background-color: #9ba5a8;
+  border-radius: 5px;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.cat-card .bottom .prd-btns .remove-prd:hover {
+  background-color: red;
+}
+
+.cat-card .bottom .prd-btns .remove-prd:disabled {
+  opacity: 0.3;
+}
+
+.cat-card .bottom .remove-cat {
+  width: 150px;
+  height: 30px;
+  border: none;
+  margin-left: 5px;
+  background-color: #0a3470;
+  border-radius: 5px;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.cat-card .bottom .remove-cat:hover {
+  background-color:red;
+}

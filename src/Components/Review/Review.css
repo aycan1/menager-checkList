@@ -1,0 +1,114 @@
+.review {
+  background-color: #f8f8f8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+  height: 40%;
+  padding: 15px;
+  -webkit-box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: 10px 13px 20px -4px rgba(0, 0, 0, 0.38);
+}
+
+.review .title {
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color:#073857;
+}
+
+.review .title .title-icon {
+  font-size: 50px;
+}
+
+.review .title .title-text {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.review hr {
+  margin: 0;
+  color: #e9e3e3;
+}
+
+.review .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 75%;
+  overflow-y: auto;
+}
+
+.review .card .pool-count,
+.review .card .categories {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.review .card .pool-count .pc-icon,
+.review .card .categories .pc-icon {
+  color: #4b4b4b;
+  position: absolute;
+  top: 25%;
+}
+
+.review .card .pool-count .pc-text,
+.review .card .categories .pc-text {
+  margin-left: 25px;
+}
+
+.review .card ul {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.review .card ul li {
+  list-style: none;
+  padding: 5px;
+  border-bottom: 2px solid #9ba5a8;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+.review .card ul li .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.review .card ul li .category .cat-icon {
+  width: 20px;
+  height: 20px;
+  color: #002663;
+}
+
+.review .card ul li .category .cat-label {
+  margin-left: 5px;
+  font-weight: bold;
+  color: #4b4b4b;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.review .card ul li .category .cat-label .cat-span {
+  font-weight: 500;
+  color: #002663;
+}
+/*# sourceMappingURL=Review.css.map */
